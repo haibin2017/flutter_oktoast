@@ -134,7 +134,7 @@ class _OKToastState extends State<OKToast> {
 }
 
 /// show toast with [msg],
-ToastFuture showToast(
+ToastFuture showToastOk(
   String msg, {
   BuildContext context,
   Duration duration = _defaultDuration,
